@@ -14,6 +14,7 @@ root.render(
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Homepage from './components/Homepage';
+import './index.css'; // Import any global CSS styles
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,7 +22,6 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

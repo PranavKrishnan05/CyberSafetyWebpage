@@ -1,8 +1,9 @@
 import React from 'react';
+import './Homepage.css';
 
 const Homepage = () => {
   return (
-    <div>
+    <div className="homepage">
       <header>
         <nav>
           <ul>
@@ -21,3 +22,4 @@ const Homepage = () => {
 }
 
 export default Homepage;
+
