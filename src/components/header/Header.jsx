@@ -1,7 +1,6 @@
 import React from "react"
-import logo from "../../assets/images/logo.svg"
+import logo from "../../assets/images/logo-no-background.png"
 import "./header.css"
-import { User } from "./User"
 import { nav } from "../../assets/data/data"
 import { Link } from "react-router-dom"
 
@@ -27,7 +26,6 @@ export const Header = () => {
             </ul>
           </nav>
           <div className='account flexCenter'>
-            <User />
           </div>
         </div>
       </header>

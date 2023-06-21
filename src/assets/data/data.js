@@ -7,8 +7,8 @@ export const nav = [
   },
   {
     id: 2,
-    text: "about",
-    url: "/about",
+    text: "activities",
+    url: "/activities",
   },
   {
     id: 3,
@@ -17,14 +17,15 @@ export const nav = [
   },
   {
     id: 4,
-    text: "contact",
-    url: "/contact",
+    text: "about",
+    url: "/about",
   },
   {
     id: 5,
-    text: "activities",
-    url: "/activities",
+    text: "contact",
+    url: "/contact",
   }
+  
 ]
 export const facts = [
   {
