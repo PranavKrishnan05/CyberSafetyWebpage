@@ -4,10 +4,13 @@ import { Header } from "./components/header/Header"
 import { Home } from "./pages/home/Home"
 import { Login } from "./pages/login/Login"
 import { Regsiter } from "./pages/login/Regsiter"
+import { Contact } from "./pages/contact/Contact"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import { DetailsPages } from "./pages/details/DetailsPages"
 import { Account } from "./pages/account/Account"
 import { Create } from "./components/create/Create"
+
+
 
 
 const App = () => {
@@ -23,6 +26,7 @@ const App = () => {
           <Route exact path='/details/:id' component={DetailsPages} />
           <Route exact path='/account' component={Account} />
           <Route exact path='/create' component={Create} />
+          <Route exact path='/contact' component={Contact} />
         </Switch>
         <Footer />
       </Router>
