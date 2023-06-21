@@ -9,6 +9,7 @@ import { DetailsPages } from "./pages/details/DetailsPages"
 import { Account } from "./pages/account/Account"
 import { Create } from "./components/create/Create"
 
+
 const App = () => {
   return (
     <>

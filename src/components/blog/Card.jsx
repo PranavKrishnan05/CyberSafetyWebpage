@@ -10,6 +10,7 @@ export const Card = () => {
       <section className='blog'>
         <div className='container grid3'>
           {blog.map((item) => (
+            <Link to={`/details/${item.id}`} className='link'>
             <div className='box boxItems' key={item.id}>
               <div className='img'>
                 <img src={item.cover} alt='' />
@@ -19,15 +20,17 @@ export const Card = () => {
                   <AiOutlineTags className='icon' />
                   <a href='/'>#{item.category}</a>
                 </div>
-                <Link to={`/details/${item.id}`} className='link'>
                   <h3>{item.title}</h3>
-                </Link>
-                <p>{item.desc.slice(0, 180)}...</p>
+                
+      
+                  <p>{item.desc.slice(0, 180)}...</p>                
                 <div className='date'>
+                
                   <AiOutlineClockCircle className='icon' /> <label htmlFor=''>{item.date}</label>
                 </div>
               </div>
             </div>
+            </Link>
           ))}
         </div>
       </section>
