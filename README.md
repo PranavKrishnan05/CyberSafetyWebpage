@@ -1,1 +1,0 @@
-This is a project created by Pranav Krishnan and Srisaivikas
