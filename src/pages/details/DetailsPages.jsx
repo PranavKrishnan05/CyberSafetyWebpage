@@ -38,8 +38,7 @@ export const DetailsPages = () => {
                   </button>*/}
               </div>
               <h1>{blogs.title}</h1>
-              <p>{blogs.desc}</p>
-              <p>{blogs.fulldesc}</p>
+              <div>{blogs.fulldesc}</div>
               <p>Author: {blogs.author}</p>
             </div>
           </div>

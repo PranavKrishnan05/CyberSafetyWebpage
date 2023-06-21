@@ -7,6 +7,7 @@
   text-align: center;
 }
 .facts p {
+  color: rgb(253, 246, 126);
   text-transform: capitalize;
   font-size: 14px;
   font-weight: 600;
@@ -44,7 +45,7 @@
   font-size: 25px;
 }
 .fact .overlay p {
-  color: #fff;
+  color: rgb(253, 246, 126);
   font-weight: 300;
   padding: 15px;
 }
