@@ -84,8 +84,8 @@ export const blog = [
     desc: "Learn how to create a stong password and the risks associated with not having one",
     fulldesc: "How to create a strong password? Never use personal information! it makes your password easy to guess Use a longer password. A strong password should be longer than 6 characters **Use unique Passwords. **If you **use the same password **for every account if someone gets ahold of one of them they have access to all your accounts! Use special characters such as** numbers, symbols,** and a mix of upper and lowercase If you're having trouble creating a suitable password a random one is your best bet! You can use a password generator instead. Like this one: https://www.lastpass.com/features/password-generator...",
     category: "Passwords",
-    cover: "../images/blogpost1.jpeg",
-    date: "APRIL 05, 2018",
+    cover: "https://www.buckeyebroadband.com/sites/default/files/styles/max_576/public/2021-10/phishing-g494e8fcb5_1280.png?itok=DMqiTsdw",
+    date: "February 22, 2023",
   },
 
   {
