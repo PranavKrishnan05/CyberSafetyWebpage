@@ -9,17 +9,19 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import { DetailsPages } from "./pages/details/DetailsPages"
 import { Account } from "./pages/account/Account"
 import { Create } from "./components/create/Create"
+import {PhishingActivity} from "./pages/activities/PhishingActivity/PhishingActivity"
+//import facebookLogo from './pages/activities/PhishingActivity/facebook_logo.png';
 
 
 
 
 const App = () => {
   return (
+    
     <>
       <Router>
         <Header />
         <Switch>
-          {/*add routes here so for the about page, just make the ='/about' component={About} /> or whatever you name it above while linking!*/}
           <Route exact path='/' component={Home} />
           <Route exact path='/login' component={Login} />
           <Route exact path='/register' component={Regsiter} />
@@ -27,6 +29,7 @@ const App = () => {
           <Route exact path='/account' component={Account} />
           <Route exact path='/create' component={Create} />
           <Route exact path='/contact' component={Contact} />
+          <Route exact path='/activites' component={PhishingActivity} />
         </Switch>
         <Footer />
       </Router>
@@ -34,3 +37,4 @@ const App = () => {
   )
 }
 export default App
+
