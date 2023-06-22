@@ -67,4 +67,14 @@ body {
     }
   }
   
-  
+  .contact-heading {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .contact-container {
+    padding-bottom: 20px;
+  }
+  .contact-box form {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
