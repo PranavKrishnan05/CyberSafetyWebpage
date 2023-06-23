@@ -14,7 +14,7 @@ export const Header = () => {
       <header className='header'>
         <div className='scontainer flex'>
           <div className='logo'>
-            <img src={logo} alt='logo' width='100px' />
+            <img src={logo} alt='logo' width='200px' />
           </div>
           <nav>
             <ul>

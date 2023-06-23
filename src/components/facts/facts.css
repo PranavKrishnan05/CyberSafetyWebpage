@@ -32,8 +32,8 @@
 }
 .facts .overlay {
   position: absolute;
-  top: 80px;
-  padding: 20px;
+  top: 0px;
+  padding: 70px;
   text-align: center;
   width: 100%;
   z-index: 2;

@@ -1,4 +1,5 @@
-.phishing-activity {
+/*}
+  .phishing-activity {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
@@ -27,7 +28,7 @@ input {
   border-radius: 4px;
 }
 
-button {
+.phishing-activity button {
   width: 100%;
   padding: 10px;
   font-weight: bold;
@@ -58,7 +59,7 @@ p {
   margin: 5px 0;
 }
 .phishing-activity .logo {
-  width: 175px; /* Adjust the width as desired */
+  width: 175px; 
   height: auto;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
@@ -98,6 +99,7 @@ p {
   z-index: 999;
 }
 .logo {
-  width: 100px; /* Adjust the width as desired */
+  width: 100px; 
   height: auto;
 }
+*/

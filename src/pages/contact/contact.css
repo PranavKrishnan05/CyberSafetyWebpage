@@ -47,8 +47,7 @@ body {
   }
   
   button[type='submit'] {
-    background-color: #0099ff;
-    color: #ffffff;
+    
     font-size: 16px;
     font-weight: bold;
     padding: 12px 20px;
@@ -58,23 +57,11 @@ body {
   }
   
   button[type='submit']:hover {
-    background-color: #0077cc;
+    background-color: #000000;
   }
   
   @media (max-width: 600px) {
     .container {
       padding: 20px;
     }
-  }
-  
-  .contact-heading {
-    text-align: center;
-    padding-top: 20px;
-  }
-  .contact-container {
-    padding-bottom: 20px;
-  }
-  .contact-box form {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
   }

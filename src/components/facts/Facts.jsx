@@ -5,14 +5,14 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Slider from "react-slick"
 import { GrFormPrevious } from "react-icons/gr"
-import { MdNavigateNext } from "react-icons/md"
+import { MdKeyboardArrowRight } from "react-icons/md"
 
 const SampleNextArrow = (props) => {
   const { onClick } = props
   return (
     <div className='control-btn' onClick={onClick}>
       <button className='next'>
-        <MdNavigateNext className='icon' />
+        <MdKeyboardArrowRight className='icon' />
       </button>
     </div>
   )
@@ -53,10 +53,13 @@ export const Facts = () => {
       <div className='content'>
         <Slider {...settings}>
           {facts.map((item) => (
+            
             <div className='boxs'>
               <div className='box' key={item.id}>
+              
                 <img src={item.cover} alt='cover' />
                 <div className='overlay'>
+                
                   <h4>{item.facts}</h4>
                   <p>{item.title}</p>
                 </div>

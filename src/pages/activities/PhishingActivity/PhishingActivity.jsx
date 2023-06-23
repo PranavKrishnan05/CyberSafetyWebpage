@@ -44,7 +44,9 @@ export const PhishingActivity = () => {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
+        <div className="phishing-activity"> 
         <button type="submit">Log In</button>
+        </div>
       </form>
       {errorMessage && <p className="error-message">{errorMessage}</p>}
       {loginData && (
