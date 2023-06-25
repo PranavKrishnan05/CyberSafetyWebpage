@@ -21,10 +21,10 @@ export const About = () => {
         
       </div>
       </a>
-      <a href="">
+      <a href="https://github.com/SrisaivikasMunagala">
 
       <div className="profile-card">
-        <img src="srisaivikas.jpg" alt="Srisaivikas" className="profile-image" />
+        <img src="https://i.ibb.co/sHtYQ6H/IMG-8065.jpg" alt="Srisaivikas" className="profile-image" />
         <div className="profile-details">
           <h2>Srisaivikas</h2>
           <p>
