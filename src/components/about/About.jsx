@@ -30,8 +30,11 @@ export const About = () => {
         <div className="profile-details">
           <h2>Srisaivikas Munagala</h2>
           <p>
-            Srisaivikas is a skilled developer with a focus on front-end development.
-            He loves creating beautiful and intuitive user interfaces.
+            Srisaivikas is a rising senior who is passionate about computer science and Web/App Development.
+            He has competed in Cyber Patriot, a prestigious cybersecurity competition run by the Air Force, where he placed third as a national semifinalist among over 5000 competing teams.
+            Srisaivikas is also an active member in his school's computer science club. He is the president of the Computer Science Honor Society chapter at his school. 
+            He is a skilled developer with a focus on front-end development. He loves creating beautiful and intuitive user interfaces.
+            In addition to his skillsets in Web and App development, he also enjoys creating applications using Python.
           </p>
         </div>
       </div>
