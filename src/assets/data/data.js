@@ -181,3 +181,41 @@ export const blog = [
     date: "",
   },
 ]
+export const video = [
+  {
+    id: 1,
+    title: "The Importance of Strong Passwords: Safeguarding Your Digital Life",
+    desc: "Learn how to create a stong password and the risks associated with not having one",
+    category: "Passwords",
+    link: "https://www.youtube.com/watch?v=xNRJwmlRBNU&ab_channel=ADesignerWhoCodes",
+  },
+
+  {
+    id: 2,
+    title: "",
+    desc: "",
+    category: "",
+    link: "",
+  },
+  {
+  id: 3,
+  title: "",
+  desc: "",
+  category: "",
+  link: "",
+},
+  {
+    id: 4,
+    title: "",
+    desc: "",
+    category: "",
+    link: "",
+  },
+  {
+    id: 5,
+    title: "",
+    desc: "",
+    category: "",
+    link: "",
+  },
+]

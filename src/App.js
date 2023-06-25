@@ -9,6 +9,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import { DetailsPages } from "./pages/details/DetailsPages"
 import { Account } from "./pages/account/Account"
 import { Create } from "./components/create/Create"
+import { Videos } from "./pages/videos/Videos"
+
 import {PhishingActivity} from "./pages/activities/PhishingActivity/PhishingActivity"
 //import facebookLogo from './pages/activities/PhishingActivity/facebook_logo.png';
 
@@ -29,6 +31,7 @@ const App = () => {
           <Route exact path='/account' component={Account} />
           <Route exact path='/create' component={Create} />
           <Route exact path='/contact' component={Contact} />
+          <Route exact path='/videos' component={Videos} />
           <Route exact path='/activites' component={PhishingActivity} />
         </Switch>
         <Footer />
