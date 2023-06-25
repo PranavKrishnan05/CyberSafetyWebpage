@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { FiSend } from 'react-icons/fi';
+import "./contact.css"
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
