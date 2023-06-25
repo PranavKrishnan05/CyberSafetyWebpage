@@ -14,8 +14,8 @@ export const Video = () => {
           {video.map((item) => (
 
             <div className='box boxItems' key={item.id}>
-            <div className="ratio ratio-16×9">
-              <iframe src={item.link} title="YouTube video" allowfullscreen></iframe> 
+            <div>
+            <iframe width="400" height="180" src={item.link} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                </div>
               <div className='details'>
                 <div className='tag'>
