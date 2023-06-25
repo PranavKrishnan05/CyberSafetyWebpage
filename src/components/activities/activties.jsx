@@ -20,15 +20,14 @@ export const Activities = () => {
         
       </div>
       </a>
-      <a href="https://github.com/SrisaivikasMunagala">
+      <a href="">
 
       <div className="profile-card">
-        <img src="https://i.ibb.co/sHtYQ6H/IMG-8065.jpg" alt="Srisaivikas" className="profile-image" />
+        <img src="https://www.onlygfx.com/wp-content/uploads/2018/04/coming-soon-stamp-1.png" alt="Srisaivikas" className="profile-image" />
         <div className="profile-details">
-          <h2>Srisaivikas</h2>
+          <h2>Coming Soon</h2>
           <p>
-            Srisaivikas is a skilled developer with a focus on front-end development.
-            He loves creating beautiful and intuitive user interfaces.
+            Work in Progress...
           </p>
         </div>
       </div>
