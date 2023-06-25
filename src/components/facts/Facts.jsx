@@ -45,7 +45,10 @@ export const Facts = () => {
         },
       },
     ],
-  }
+    autoplay: true, // Enable autoplay
+    autoplaySpeed: 3000, // Set autoplay speed in milliseconds
+  };
+  
 
   return (
     <>

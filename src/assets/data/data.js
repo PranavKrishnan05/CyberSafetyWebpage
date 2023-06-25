@@ -38,7 +38,7 @@ export const facts = [
     id: 2,
     facts: "Identity Theft",
     title: "Almost one third of Americans have been a victim of identity theft",
-    cover: "https://telset.id/wp-content/uploads/2020/04/google-scam-emails-02-1.jpg",
+    cover: "https://media.istockphoto.com/id/1329591656/vector/online-crime-concept.jpg?s=612x612&w=0&k=20&c=naZNX8Fgpy1b2apSDtr4kFk7oyoi_132bYVN0hfSlec=",
   },
   {
     id: 3,
@@ -77,6 +77,13 @@ export const facts = [
     title: "94% of malware being delivered through emails",
     cover: "https://securityprism.com/wp-content/uploads/2022/05/what-is-email-security-628x353-1.png",
   },
+  {
+    id: 9,
+    facts: "Phishing",
+    title: "In 2023 alone, 33 million data records are to be compromised due to phishing attacks",
+    cover: "https://media.istockphoto.com/id/1164097820/vector/email-data-phishing-with-cyber-thief-hide-behind-laptop-computer-hacking-concept.jpg?s=612x612&w=0&k=20&c=yst0BFSwaO0Il-7vcwM4eseaqublIhAUDiI91LxQ2BU=",
+  },
+
 ]
 export const blog = [
   {
@@ -86,7 +93,7 @@ export const blog = [
     desc: "",
     fulldesc: "In an increasingly interconnected world, where digital identities are woven into every aspect of our lives, the importance of strong passwords cannot be overstated. Whether it's logging into our social media accounts, online banking, or accessing sensitive personal information, passwords are the first line of defense against unauthorized access. The risks of weak passwords include being easy to guess, vulnerable to brute-force attacks, susceptible to credential stuffing, targeted by phishing attacks, and exposed in data breaches. To create strong passwords, ensure they are long, complex, and unique for each account. Regularly update passwords, enable two-factor authentication (2FA), and stay vigilant against potential threats. By following these practices, you can significantly reduce the risk of unauthorized access, identity theft, and data breaches. Your digital security is in your hands—choose strong passwords to keep your online life safe.",
     category: "Passwords",
-    cover: "https://media1.thehungryjpeg.com/thumbs2/ori_3750643_1lz294197elmnnf6p3r1890lp1mp8u153nl2nzg5_hacking-concept-vector-hacker-using-personal-computer-stealing-credit-card-information-personal-data-money-network-fishing-hacking-pin-code-breaking-attacking-flat-cartoon-illustration.jpg",
+    cover: "https://www.ermes.company/wp-content/uploads/2023/04/20945584-2-1024x683.jpg",
     date: "June 25, 2023",
   },
 
@@ -97,7 +104,7 @@ export const blog = [
     desc: "",
     fulldesc: "Keeping one's accounts safe is of paramount importance in an increasingly digital world. The following practices can help individuals safeguard their accounts from unauthorized access and potential cyber threats. First and foremost, it is crucial to create strong and unique passwords for each account. A strong password should be a combination of upper and lowercase letters, numbers, and special characters, and should avoid easily guessable information like birthdays or names. Enabling two-factor authentication (2FA) adds an extra layer of security by requiring an additional verification step, such as a unique code sent to a mobile device, when logging in. Regularly updating passwords and avoiding password reuse across multiple accounts is essential. It is also prudent to be cautious of phishing attempts, where attackers impersonate trusted entities to trick users into revealing sensitive information. Avoid clicking on suspicious links or providing personal information in response to unsolicited emails or calls. Verifying the legitimacy of websites by checking for secure HTTPS connections and paying attention to the website's URL can help prevent falling victim to phishing attacks. Keeping devices and software up to date with the latest security patches and updates is crucial, as vulnerabilities can be exploited by attackers. Utilizing reputable antivirus and anti-malware software can provide additional protection against malicious software and cyber threats. Regularly monitoring account activity and promptly reporting any suspicious or unauthorized transactions can help detect and respond to potential security breaches. Lastly, maintaining awareness of emerging threats, staying informed about cybersecurity best practices, and seeking reputable sources for information can empower individuals to make informed decisions in safeguarding their accounts. By adopting these proactive measures and prioritizing account security, individuals can reduce the risk of unauthorized access, data breaches, and financial loss, ultimately ensuring the safety of their digital presence.",
     category: "Accounts",
-    cover: "https://c.pxhere.com/images/66/ab/1a22a11f23f4a32d21b10fcd0164-1449185.jpg!d",
+    cover: "https://www.incharge.org/wp-content/uploads/2020/07/Identity-and-Credit-Card-Theft.jpg",
     date: "June 25, 2023",
   },
   {
@@ -107,7 +114,7 @@ export const blog = [
     desc: "",
     fulldesc: "Phishing emails pose a significant threat to individuals, organizations, and society as a whole. These deceptive messages, cunningly designed to appear legitimate, lure unsuspecting recipients into sharing sensitive information or performing malicious actions. The dangers associated with phishing emails cannot be overstated, as they can lead to financial loss, identity theft, data breaches, and even the compromise of entire systems. To protect oneself from falling victim to these cyberattacks, several precautions must be taken. First and foremost, one must exercise caution when opening emails from unknown senders or unexpected sources. Suspicious or generic subject lines, grammatical errors, and mismatched URLs are red flags that indicate a phishing attempt. Verifying the legitimacy of the sender's email address and cross-referencing it with official sources can help confirm the authenticity of the message. Additionally, avoiding clicking on embedded links or downloading attachments without verifying their legitimacy is crucial. Hovering over links to view their actual destination before clicking can reveal any discrepancies. It is also advisable to keep software and security applications up to date, as they often provide protection against known phishing techniques. Developing a healthy skepticism and maintaining awareness of the latest phishing tactics is vital in recognizing and avoiding such fraudulent emails. Educating oneself and others about the dangers of phishing, through training programs and awareness campaigns, can further fortify defenses against these cyber threats. By remaining vigilant and adopting these preventive measures, individuals and organizations can minimize the risks associated with phishing emails and safeguard their digital well-being.",
     category: "Scams",
-    cover: "https://media.istockphoto.com/id/956400244/vector/phishing-scam-hacker-attack.jpg?s=612x612&w=0&k=20&c=6adZZcKJdWO24xd05WH41Q362vGgny_w466y7Ds14Mk=",
+    cover: "https://static.vecteezy.com/system/resources/previews/000/173/207/original/phishing-illustration-vector.jpg",
     date: "June 25, 2023",
   },
   {
@@ -117,12 +124,12 @@ export const blog = [
     desc: "",
     fulldesc: "Refund scams have become a prevalent and alarming issue in the realm of cybercrime. These fraudulent schemes exploit people's desire for financial reimbursement, deceiving them into sharing sensitive information or making payments under the guise of receiving refunds. The dangers posed by refund scams are multifaceted and can have severe consequences for victims. Firstly, individuals may suffer financial losses, as scammers trick them into providing bank account details or making payments for processing fees or administrative costs. Additionally, personal and sensitive information, such as social security numbers or credit card details, may be harvested by these fraudsters, leading to identity theft and subsequent misuse of personal data. Moreover, refund scams can also compromise victims' devices by enticing them to click on malicious links or download harmful attachments, thereby granting cybercriminals access to their systems and potentially installing malware. To protect oneself from falling prey to refund scams, it is crucial to exercise caution and skepticism when encountering such offers. Verifying the authenticity of refund claims through independent research and contacting the relevant authorities or organizations directly can help confirm the legitimacy of the refund request. It is essential to refrain from sharing personal information or making payments in response to unsolicited refund emails or calls. Instead, individuals should proactively initiate contact with the concerned parties using official contact information obtained from reliable sources. Employing robust cybersecurity measures such as strong, unique passwords, two-factor authentication, and keeping software up to date can also bolster defense against refund scams. Furthermore, raising awareness about refund scams through public education campaigns and disseminating information about common scam tactics can empower individuals to recognize and avoid falling victim to such fraudulent schemes. By remaining vigilant, skeptical, and adopting preventive measures, individuals can shield themselves from refund scams and mitigate the potential harm caused by these deceitful practices.",
     category: "Scams",
-    cover: "https://www.liveinhomecare.com/wp-content/uploads/2022/02/elderly-scam-fraud-alert-2-7.jpg",
+    cover: "https://www.kuwaittimes.com/wp-content/uploads/2020/12/local1-9.jpg",
     date: "June 25, 2023",
   },
   {
     id: 5,
-    title: "Should I be afraid of Identity Theft?",
+    title: "Should I be Afraid of Identity Theft?",
     author:"Pranav Krishnan",
     desc: "",
     fulldesc: "Identity theft is a pervasive and insidious crime that can have devastating consequences for individuals. The theft of personal information, such as social security numbers, credit card details, and passwords, enables fraudsters to assume someone else's identity, wreak havoc on their financial well-being, and tarnish their reputation. Protecting oneself from identity theft requires a proactive and multi-faceted approach. Firstly, individuals must prioritize safeguarding their personal information by adopting strong and unique passwords for all online accounts, regularly changing them, and refraining from using easily guessable information such as birthdays or names. It is crucial to be cautious when sharing personal data, both offline and online, and to only provide sensitive information on secure websites that employ encryption. Regularly monitoring financial statements and credit reports for any suspicious activity can help detect signs of identity theft early on. Additionally, individuals should exercise caution when clicking on links or opening attachments in emails, especially those from unknown senders, as these can be phishing attempts designed to harvest personal information. Implementing robust security software on devices, such as firewalls and anti-malware programs, can help protect against malware that can compromise personal information. It is also prudent to refrain from oversharing personal information on social media platforms, as cybercriminals can exploit this information to piece together an individual's identity. Being aware of common identity theft techniques, such as shoulder surfing, dumpster diving, and phone scams, can help individuals remain vigilant and avoid falling victim to these tactics. Finally, in the event of suspected identity theft, individuals should immediately report the incident to the appropriate authorities and financial institutions, enabling swift action to mitigate the damage caused. By adopting a proactive mindset, staying informed about the latest identity theft techniques, and implementing robust security measures, individuals can significantly reduce their vulnerability to this pervasive crime and safeguard their personal and financial well-being.",
