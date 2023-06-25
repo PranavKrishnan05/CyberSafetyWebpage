@@ -22,7 +22,9 @@ export const Header = () => {
                 <li key={link.id}>
                   <Link to={link.url}>{link.text}</Link>
                 </li>
+                
               ))}
+              
             </ul>
           </nav>
           <div className='account flexCenter'>

@@ -24,8 +24,26 @@ export const nav = [
     id: 5,
     text: "contact",
     url: "/contact",
-  }
+  },
+  //added these do to spacing errors
+  //VVVVVVVVVVVVVVV
+  {
+  id: 0,
+},
   
+{
+  id: 0,
+},
+{
+  id: 0,
+},
+{
+  id: 0,
+},
+{
+  id: 0,
+},
+//^^^^^^^^^^^^^^^^^^^^^^^^^^
 ]
 export const facts = [
   {
