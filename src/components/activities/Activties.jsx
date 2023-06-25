@@ -14,7 +14,7 @@ export const Activities = () => {
         <div className="profile-details">
           <h2>Phishing Activity</h2>
           <p>
-          The activity simulates a login page, similar to Facebook's, to show how attackers deceive users into sharing their login details. By participating, users learn to spot signs of phishing like fake URLs, poor design, and requests for sensitive info without proper authentication
+          This activity simulates a login page, similar to Facebook's, to show how attackers deceive users into sharing their login details. By participating, users learn to spot signs of phishing like fake URLs, poor design, and requests for sensitive info without proper authentication
           </p>
         </div>
         
