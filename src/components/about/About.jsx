@@ -12,10 +12,12 @@ export const About = () => {
       <div className="profile-card">
         <img src="https://i.imgur.com/3qGmTOl.jpg" alt="Pranav" className="profile-image" />
         <div className="profile-details">
-          <h2>Pranav</h2>
+          <h2>Pranav Krishnan</h2>
           <p>
-            Pranav is a passionate individual with expertise in web development.
-            He enjoys building interactive and user-friendly web applications.
+          Pranav is a Senior in high school who is passionate about cybersecurity and computer science. 
+          He has competed in Cyber Patriot, a prestigious cybersecurity competition run by the Air Force, where he placed third as a national semifinalist among over 5000 competing teams.
+          In addition to his technical experience, Pranav is an active member of his community. He is the president and founder of the South Asian Cultural Association at his high school, where he leads his club's outreach efforts to help those in need.
+          He is also involved in DECA, an international business organization, where he has made it all the way up to the international level and gained valuable experience in both business and leadership. 
           </p>
         </div>
         
@@ -26,7 +28,7 @@ export const About = () => {
       <div className="profile-card">
         <img src="https://i.ibb.co/sHtYQ6H/IMG-8065.jpg" alt="Srisaivikas" className="profile-image" />
         <div className="profile-details">
-          <h2>Srisaivikas</h2>
+          <h2>Srisaivikas Munagala</h2>
           <p>
             Srisaivikas is a skilled developer with a focus on front-end development.
             He loves creating beautiful and intuitive user interfaces.
