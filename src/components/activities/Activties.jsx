@@ -7,7 +7,10 @@
     return (
       <div className="about-container">
         <h1>Activities</h1>
-        <p>This website has curated cyber activities to help you learn about cyber attacks and train agianst cyber attacks.</p>
+        <p>This website has curated cyber activities to help you learn about cyber attacks and train against cyber attacks.</p>
+        <br></br>
+        <br></br>
+
         <a href="https://realutilizedalphatest.srisaivikasmuna.repl.co/">
         <div className="profile-card">
           <img src="https://static.vecteezy.com/system/resources/previews/000/173/720/original/phishing-data-via-internet-mobile-phone-vector.jpg" alt="Phishing" className="profile-image" />

@@ -9,6 +9,8 @@ export const About = () => {
       <h1>About Us</h1>
       <p>This website was developed to educate everyone on the internet about the risks of the internet and how to protect themselves from those risks.</p>
      <br></br>
+     <br></br>
+
       <a href="https://www.linkedin.com/in/pranav-krishnan-59b24625a/">
 
       <div className="profile-card">
