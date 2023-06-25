@@ -1,13 +1,13 @@
 // AboutUsPage.jsx
 import React from 'react';
-import './about.css';
+import './activities.css';
 //import { Link } from "react-router-dom"
 
-export const About = () => {
+export const Activities = () => {
   return (
     <div className="about-container">
-      <h1>About Us</h1>
-      <p>This website was developed to educate everyone on the internet about the risks of the internet and how to protect themselves from those risks.</p>
+      <h1>Activities</h1>
+      <p>This website has curated cyber activities to help you learn about cyber attacks and train agianst cyber attacks.</p>
       <a href="https://www.linkedin.com/in/pranav-krishnan-59b24625a/">
       <div className="profile-card">
         <img src="https://i.imgur.com/3qGmTOl.jpg" alt="Pranav" className="profile-image" />

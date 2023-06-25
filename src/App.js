@@ -10,7 +10,8 @@ import { Videos } from "./pages/videos/Videos"
 import { AboutUs } from "./pages/about/aboutUs"
 
 
-import {PhishingActivity} from "./pages/activities/PhishingActivity/PhishingActivity"
+//import {PhishingActivity} from "./pages/activities/PhishingActivity/PhishingActivity"
+import { ActivitiesPage } from "./pages/activities/activities"
 //import facebookLogo from './pages/activities/PhishingActivity/facebook_logo.png';
 
 
@@ -28,7 +29,7 @@ const App = () => {
           <Route exact path='/create' component={Create} />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/videos' component={Videos} />
-          <Route exact path='/activites' component={PhishingActivity} />
+          <Route exact path='/activites' component={ActivitiesPage} />
           <Route exact path='/about' component={AboutUs} />
 
         </Switch>
