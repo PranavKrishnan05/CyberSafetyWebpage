@@ -8,7 +8,7 @@ import { DetailsPages } from "./pages/details/DetailsPages"
 import { Create } from "./components/create/Create"
 import { Videos } from "./pages/videos/Videos"
 import { AboutUs } from "./pages/about/aboutUs"
-import { Activities } from "./components/activities/activties"
+import { Activities } from "./components/activities/Activties"
 
 
 
