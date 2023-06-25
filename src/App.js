@@ -8,6 +8,8 @@ import { DetailsPages } from "./pages/details/DetailsPages"
 import { Create } from "./components/create/Create"
 import { Videos } from "./pages/videos/Videos"
 import { AboutUs } from "./pages/about/aboutUs"
+import { AboutUs } from "./pages/about/aboutUs"
+
 
 
 //import {PhishingActivity} from "./pages/activities/PhishingActivity/PhishingActivity"
