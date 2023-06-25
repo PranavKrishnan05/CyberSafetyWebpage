@@ -1,6 +1,5 @@
 /* styles.css */
-
-body {
+.contact-container body {
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
     margin: 0;
@@ -12,7 +11,7 @@ body {
     margin: 0 auto;
     padding: 40px;
   }
-  h1 {
+  .contact-container h1 {
     font-size: 36px;
     font-weight: bold;
     margin-bottom: 30px;
@@ -22,14 +21,14 @@ body {
   }
   
   
-  form {
+.contact-container form {
     background-color: #ffffff;
     padding: 30px;
     border-radius: 6px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  label {
+.contact-container label {
     display: block;
     font-size: 16px;
     font-weight: bold;
@@ -38,7 +37,7 @@ body {
   }
   
   input,
-  textarea {
+.contact-container textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #dddddd;
@@ -48,7 +47,7 @@ body {
     margin-bottom: 20px;
   }
   
-  button[type='submit'] {
+.contact-container button[type='submit'] {
     
     font-size: 16px;
     font-weight: bold;
@@ -57,16 +56,16 @@ body {
     border-radius: 4px;
     cursor: pointer;
   }
-  button[type='submit']:hover {
+.contact-container button[type='submit']:hover {
     background-color: lightgrey;
   }
 
-  button[type='submit']:active {
+.contact-container button[type='submit']:active {
     background-color: grey;
 
   }
   
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
     .container {
       padding: 20px;
     }
