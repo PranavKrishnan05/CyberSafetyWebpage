@@ -8,7 +8,7 @@ import { DetailsPages } from "./pages/details/DetailsPages"
 import { Create } from "./components/create/Create"
 import { Videos } from "./pages/videos/Videos"
 import { AboutUs } from "./pages/about/aboutUs"
-import { ActivitiesPage } from "./pages/activities/Activities"
+import { Activities } from "./components/activities/activties"
 
 
 
@@ -25,7 +25,7 @@ const App = () => {
           <Route exact path='/create' component={Create} />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/videos' component={Videos} />
-          <Route exact path='/activites' component={ActivitiesPage} />
+          <Route exact path='/activites' component={Activities} />
           <Route exact path='/about' component={AboutUs} />
 
         </Switch>
