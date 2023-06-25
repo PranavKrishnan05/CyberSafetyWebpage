@@ -187,15 +187,15 @@ export const video = [
     title: "The Importance of Strong Passwords: Safeguarding Your Digital Life",
     desc: "Learn how to create a stong password and the risks associated with not having one",
     category: "Passwords",
-    link: "https://www.youtube.com/watch?v=xNRJwmlRBNU&ab_channel=ADesignerWhoCodes",
+    link: "https://www.youtube.com/embed/q5DYkzOrz_I",
   },
 
   {
     id: 2,
-    title: "",
-    desc: "",
-    category: "",
-    link: "",
+    title: "10 Rules to Avoid Identity Theft ",
+    desc: "In this video, you'll learn how to identify and prevent identity theft and fraud! We cover what identity theft is, what to do if it happens to you, and the ten tricks & tips you can use to avoid becoming another victim!",
+    category: "Identity Theft",
+    link: "https://www.youtube.com/embed/qBDCnKfExw4",
   },
   {
   id: 3,

@@ -7,6 +7,8 @@ import { Link } from "react-router-dom"
 export const Video = () => {
   return (
     <>
+          <br></br>
+      <br></br>
       <section className='video'>
         <div className='container grid3'>
           {video.map((item) => (
@@ -22,12 +24,16 @@ export const Video = () => {
                 </div>
                   <h3>{item.title}</h3>
                 
-                  <p>{item.desc.slice(0, 180)}...</p>                
+                  <p>{item.desc.slice(0, 250)}</p>                
               </div>
             </div>
           ))}
         </div>
-      </section>
+        <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+    </section>
     </>
   )
 }
