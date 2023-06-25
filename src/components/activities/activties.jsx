@@ -36,5 +36,6 @@ export const Activities = () => {
       </a>
     </div>
   );
+
 };
 

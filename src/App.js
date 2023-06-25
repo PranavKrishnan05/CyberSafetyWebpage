@@ -8,13 +8,7 @@ import { DetailsPages } from "./pages/details/DetailsPages"
 import { Create } from "./components/create/Create"
 import { Videos } from "./pages/videos/Videos"
 import { AboutUs } from "./pages/about/aboutUs"
-import { AboutUs } from "./pages/about/aboutUs"
-
-
-
-//import {PhishingActivity} from "./pages/activities/PhishingActivity/PhishingActivity"
 import { ActivitiesPage } from "./pages/activities/Activities"
-//import facebookLogo from './pages/activities/PhishingActivity/facebook_logo.png';
 
 
 
